@@ -1,7 +1,7 @@
 INSERT INTO users (name, email, password)
-VALUES ('Hannah','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u' , 'bregmanhannah@gmail.com'),
-('Becky','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u' , 'becky@gmail.com'),
-('Josaphina','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u' , 'josie@gmail.com');
+VALUES ('Hannah','bregmanhannah@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Becky','becky@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Josaphina','josie@gmail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES ('Speed Hill','description', 'https://hookedonhouses.net/wp-content/uploads/2018/10/5407-Water-View-Granbury-TX-listing-with-dinosaur-e1539998283859-400x305.jpg', 'https://hookedonhouses.net/wp-content/uploads/2014/07/funny-real-estate-listing-horse-in-Virginia-living-room-400x305.jpg', 200, 1,2,3,'Canada', 'BleepBloop Street', 'Toronto', 'Ontario', 'L4J7E1', 'true' ),
